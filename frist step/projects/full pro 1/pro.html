@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta name="viewport" content="width=device-width,inital-scale=1">
+    <title>full website</title>
+    <link rel="stylesheet" href="pro0.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+</head>
+<body>
+<section id="banner">
+    <img src="" class="logo">
+    <div class="banner-text">
+        <h1>car is a style life</h1>
+   <p>style your car is style your life</p>  
+   
+   <div class="banner-btn">
+    <a href="#"><span></span>find out</a>
+    <a href="#"> <span></span>read more</a>
+   </div>
+</div>
+</section>
+<div id="sidenav">
+    <nav>
+        <ul>
+          <li><a href="#">home</a></li>
+          <li><a href="#">features</a></li>
+          <li><a href="#">services</a></li>
+          <li><a href="#">testimonials</a></li>
+          <li><a href="#">meet us</a></li>
+
+
+        </ul>
+    </nav>
+</div>
+<div id="menubtn"><span>
+    <img src="photo/bx-menu.svg" id="menu"></span>
+</div>
+
+<!-- features-->
+<section id="features">
+    <div class="title-text"> 
+        <p>freatures</p>
+        <h1>why choose us</h1>
+        </div>
+
+
+    
+ <div class="features-box">
+   <div class="features">
+    <h1>experienced staff</h1>
+    <div class="features-disc">
+        <div class="features-icon">
+            <i class="fa fa-shield" > </i>
+         
+
+        
+        </div>
+        <div class="features-text">
+            <p>We have highly experienced employees
+                 to make your car modified and have
+                 a long life without breakdown</p>
+        </div>
+   </div>
+
+   
+   <h1>pre booking online</h1>
+   <div class="features-disc">
+       <div class="features-icon">
+           <i class="fa fa-check-square-o" ></i>
+        
+
+       
+       </div>
+       <div class="features-text">
+           <p>You can book to modify your car and 
+            choose the modification
+             you want</p>
+       </div>
+  </div>
+
+
+
+  <h1>Many centers for modification</h1>
+  <div class="features-disc">
+      <div class="features-icon">
+          <i class="fa fa-shield" ></i>
+       
+
+      
+      </div>
+      <div class="features-text">
+          <p>We have car modification centers
+             to modify many cars and have 
+            a place to modify your car</p>
+      </div>
+ </div>
+
+</div>
+<div class="features-img">
+    <img src="photo/Screenshot 2023-08-14 at 15-55-36 Document.png" >
+</div>
+    </div>
+    </div>
+</section>
+
+
+
+
+<!--service-->
+
+
+
+<section class="service">
+    <div class="title-text">
+        <p>services</p>
+        <h1>we provide better</h1>
+    </div>
+    <div class="service-box">
+<div class="single-service">
+    <img src="photo/pexels-jacob-moore-12330299.jpg" > 
+    <div class="over-lay"></div>
+    <div class="service-desc">
+        <h3>drift car</h3>
+        <hr>
+        <p> We can modify your car to make it a great drift car</p>
+    </div>
+</div>
+<div class="single-service"> 
+       <img src="photo/pexels-jay-pizzle-8664306.jpg " >
+       <div class="over-lay"></div>
+       <div class="service-desc">
+        <h3>super car</h3>
+        <hr>
+        <p>We can even customize your supercar</p>
+    </div>
+    </div>
+<div class="single-service">  
+      <img src="photo/race-4005322.jpg" >
+      <div class="over-lay"></div>
+      <div class="service-desc">
+        <h3>rally car</h3>
+        <hr>
+        <p>And if you want an off-road vehicle, your park will be converted into a rally car</p>
+    </div></div>
+
+
+<div class="single-service">  
+      <img src="photo/pexels-erik-mclean-5158103.jpg" >
+      <div class="over-lay"></div>
+      <div class="service-desc">
+        <h3>customizing car</h3>
+        <hr>
+        <p>Don't worry, we can modify your car slightly if you want to go to an event</p>
+    </div>
+    </div>
+
+
+    <div class="single-service">  
+        <img src="photo/offroad-5605098.jpg" >
+        <div class="over-lay"></div>
+        <div class="service-desc">
+          <h3>offroad car</h3>
+          <hr>
+          <p>You can modify your car
+            Until it becomes suitable for off-road roads</p>
+      </div>
+      </div>
+
+
+
+      <div class="single-service">  
+        <img src="photo/wallpaperflare.com_wallpaper(1).jpg" >
+        <div class="over-lay"></div>
+        <div class="service-desc">
+          <h3>drag car</h3>
+          <hr>
+          <p>if u need to be fastest 0 to 60 mph </p>
+      </div>
+      </div>
+</section>
+
+
+<script>
+var menubtn = document.getElementById("menubtn")
+var sidenav = document.getElementById("sidenav")
+var menu = document.getElementById("menu")
+
+sidenav.style.right = "-250px";
+
+menubtn.onclick = function () {
+    if(sidenav.style.right == "-250px"){
+        sidenav.style.right = "0px";
+       menu.src ="photo/bxs-message-square-x.svg";
+    }
+    else{
+        sidenav.style.right = "-250px";
+        menu.src ="photo/bx-menu.svg"; 
+    }
+}
+
+</script>
+</body>
+</html>
